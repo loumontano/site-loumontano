@@ -1,0 +1,61 @@
+/*
+
+=======================================================================================
+                                *** FILE STRUCTURE ***
+=======================================================================================
+
+
+scss/
+|
+|– base/
+|   |– _common.scss      # Common styles for all the site
+|   |– _reset.scss       # Reset/normalize
+|   |– _fonts.scss       # Web fonts / Font icons
+|
+|– components/
+|   |– _buttons.scss     # Buttons
+|   |– _carousel.scss    # Carousel
+|   |– _module.scss      # module containers with margins, paddings and basic structure
+|   |– _thumbnails.scss  # Thumbnails
+|
+|– layout/
+|   |– _footer.scss      # Footer
+|   |– _form.scss        # Forms
+|   |– _grid.scss        # Grid structure
+|   |– _header.scss      # Header
+|   |– _navigation.scss  # Navigation
+|
+|– pages/
+|   |– _homepage.scss    # Home specific styles
+|
+|– utils/
+|   |– _animations.scss  # Sass Animations
+|   |– _mixins.scss      # Sass Mixins, functions and placeholders
+|   |– _variables.scss   # Sass Variables
+|
+`– main.scss             # Main Sass file
+
+*/
+
+
+@import 'base/common';
+@import 'base/reset';
+@import 'base/fonts';
+
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/module';
+@import 'components/thumbnails';
+
+@import 'layout/footer';
+@import 'layout/form';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/navigation';
+
+@import 'pages/homepage';
+
+@import 'utils/animations';
+@import 'utils/mixins';
+@import 'utils/variables';
+
